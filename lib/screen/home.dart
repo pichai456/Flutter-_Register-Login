@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:register_login/screen/login.dart';
-import 'package:register_login/screen/register.dart';
+// import 'package:register_login/screen/login.dart';
+// import 'package:register_login/screen/register.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          // automaticallyImplyLeading: false,
           title: Text('Register & Login'),
         ),
         body: Padding(
@@ -23,9 +24,7 @@ class HomeScreen extends StatelessWidget {
                       icon: Icon(Icons.add),
                       label: Text('สร้างบัญชีผู้ใช้'),
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) {
-                          return RegisterScreen();
-                        }));
+                        Navigator.pushNamed(context, '/register');
                       },
                     )),
                 SizedBox(
@@ -34,9 +33,7 @@ class HomeScreen extends StatelessWidget {
                       icon: Icon(Icons.login_rounded),
                       label: Text('เข้าสู่ระบบ'),
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) {
-                          return LoginScreen();
-                        }));
+                        Navigator.pushNamed(context, '/login');
                       },
                     ))
               ],

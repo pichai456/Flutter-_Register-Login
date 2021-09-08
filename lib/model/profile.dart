@@ -1,6 +1,6 @@
 class Profile {
-  final String? email;
-  final String? password;
+  final String email;
+  final String password;
 
   Profile({
     required this.email,

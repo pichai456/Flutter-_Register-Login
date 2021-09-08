@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "680804356705",
+    "project_id": "myloginapp-ebdad",
+    "storage_bucket": "myloginapp-ebdad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680804356705:android:7fd0c8b4d8e44b673c9020",
+        "android_client_info": {
+          "package_name": "com.example.register_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680804356705-h3epu1h24hqkdl7uqnp4j98npc1pg45m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMelq0XZ883rW7donoEak4MwH5eXVHsHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680804356705-h3epu1h24hqkdl7uqnp4j98npc1pg45m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
